@@ -1,0 +1,13 @@
+import<../head.lade>
+		div (controller:"demo")
+			div
+				button (click:"shows") "s"
+				button (click:"showm") "m"
+				button (click:"showl") "l"
+				button (click:"showxl") "xl"
+			div (class:"{{size}} {{color}}" loading:"loading1" loading-data:"loading")
+			
+
+
+
+	script [src:"./index.js"]

@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta>
+		</meta>
+		<meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+		</meta>
+		<script src='../latte_dom.js'>
+		</script>
+		<script src='../latte_dom_dialog.js'>
+		</script>
+		<script src='../latte_dom_loading.js'>
+		</script>
+	</head>
+	<body>
+		<div latte-controller='demo'>
+			<div>
+				<button latte-click='shows'>
+					s
+				</button>
+				<button latte-click='showm'>
+					m
+				</button>
+				<button latte-click='showl'>
+					l
+				</button>
+				<button latte-click='showxl'>
+					xl
+				</button>
+			</div>
+			<div latte-class='{{size}} {{color}}' latte-loading='loading1' latte-loading-data='loading'>
+			</div>
+		</div>
+	</body>
+	<script src='./index.js'>
+	</script>
+
+</html>

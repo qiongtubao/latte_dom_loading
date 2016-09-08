@@ -1,0 +1,1 @@
+../../latte_dom_dialog/build/0.0.1/latte_dom_dialog.js

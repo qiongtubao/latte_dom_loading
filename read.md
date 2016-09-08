@@ -1,0 +1,1 @@
+1.依赖latte_dom_dialog的组件提供多种loading的方式
